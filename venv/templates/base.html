@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        {%block title %}Flask Data Fusion| {%endblock%}</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+</head>
+<body>
+    <head>
+        {%include "navbar.html"%}
+    </head>
+    <h1>Encabezado principal</h1>
+    
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
